@@ -19,7 +19,7 @@
 
 ::-webkit-scrollbar-thumb {
   background-color: #eba834;
-  background-image: url('file:///Users/lauriesavoia/Documents/scrollbar.png');
+  background-image: url('file:///Users/lauriesavoia/images/scrollbar.png');
   background-size: cover;
   border-radius: 10px;
 }
