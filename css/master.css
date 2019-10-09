@@ -1,0 +1,145 @@
+/*scrollbar*/
+
+/* width */
+
+::-webkit-scrollbar {
+  width: 22px;
+  background-color: #e6e7eb;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px grey;
+  border-radius: 10px;
+  background-color: #dadbdf;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background-color: #eba834;
+  background-image: url('file:///Users/lauriesavoia/Documents/scrollbar.png');
+  background-size: cover;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d1890d;
+}
+
+/*
+.left {
+  max-width: 50%;
+  float: left;
+}
+
+.right {
+  max-width: 50%;
+  float: right;
+  clear: both;
+  overflow: hidden;
+}
+
+div {
+  clear: both;
+  overflow: hidden;
+}
+*/
+
+.wrapper {
+  display : flex;
+  flex-wrap: wrap;
+  /*border : 1px solid green;*/
+}
+
+.wrapper > div {
+  padding-left: 2vw;
+  flex-basis: 96vw;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  /*border : 1px solid red;*/
+}
+
+.wrapper > div > * {
+    padding: 1vw;
+  width: 48vw;
+  align-items: center;
+  justify-content: center;
+  display : flex;
+  flex-wrap: wrap;
+    box-sizing: border-box;
+  /*border : 1px solid blue;*/
+}
+
+.wrapper > div.left1 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.wrapper > div.right1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.wrapper > div.right {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+p {
+  clear: both;
+  overflow: hidden;
+  text-align: justify;
+}
+
+blockquote {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.333em;
+  font-weight: 500;
+  color: #eba834;
+  text-align: center;
+  max-width: 43vw;
+}
+
+@media screen and (max-width: 640px)
+{
+    h2{
+      font-size: 5vw;
+      margin-top: 3rem;
+      padding-left: 6vw;
+    }
+
+    h1{
+    padding-left: 6vw;
+    }
+
+    .wrapper > div {
+      flex-basis: 95vw;
+      }
+
+  .wrapper > div > * {
+    width: 93vw;
+    padding: 5vw;
+    padding-top: 8vw;
+  }
+
+.wrapper > div.left1 {
+  display : flex;
+  flex-wrap: wrap;
+}
+
+.wrapper > div.right1 {
+  display : flex;
+  flex-wrap: wrap;
+}
+
+blockquote {
+  max-width: 100vw;
+}
+
+}

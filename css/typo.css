@@ -1,0 +1,67 @@
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Serif+Pro&display=swap" rel="stylesheet">html {
+  font-size: 18px;
+}
+
+body {
+  background-image: url(https://img.freepik.com/photos-gratuite/fond-papier-texture_53876-30486.jpg?size=626&ext=jpg);
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+h1, h2, h5 {
+  margin: 2.75rem 0 1rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 6vw;
+  /*font-size: 4.209em;*/
+  margin-bottom: 3vw;
+  letter-spacing: 0em;
+  line-height: 7vw;
+  /*line-height: 5rem;*/
+  padding-left: 3vw;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 3vw;
+  /*font-size: 2.369em;*/
+  margin-top: 5vw;
+  margin-bottom: 2vw;
+  color: #eba834;
+  padding-left: 3vw;
+}
+
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.333em;
+  font-weight: 500;
+  color: #eba834;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.333em;
+  font-weight: 500;
+  color: #eba834;
+  margin-bottom: 5em;
+}
+
+h5 {
+  font-size: 1.333em;
+}
+
+small, .text_small {
+  font-size: 0.75em;
+}
